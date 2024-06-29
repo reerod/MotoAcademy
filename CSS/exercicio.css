@@ -1,0 +1,33 @@
+/* p1
+caixa alta
+cor vemelha
+fonte 100%
+
+p2
+lowercase
+cor azul
+fonte menor
+fonte arial sans
+ serif
+ 
+ paragrafo
+ borda com 1px cor da borda seja verde*/
+
+.p1  {
+    color: red;
+    text-transform: uppercase;
+    font-size: 30px;
+ }
+
+.p2 {
+    text-transform: lowercase;
+    color: blue;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+
+.paragrafo {
+
+    border: 1px solid green;
+
+ }
