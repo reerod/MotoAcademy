@@ -1,6 +1,6 @@
 document.addEventListener('DOMContentLoaded', () => {
     const formulario = document.getElementById("form")
-    const resultado = documento.getElementById("result")
+    const resultado = document.getElementById("result")
 
     formulario.addEventListener('submit', (event) => {
         event.preventDefault();
@@ -18,3 +18,8 @@ document.addEventListener('DOMContentLoaded', () => {
         formulario.reset()
     })
 })
+        
+
+//const nome = document.getElementById('nome').value; // Adicionado .value para obter o valor do campo
+//const email = document.getElementById('email').value; // Adicionado .value para obter o valor do campo
+//const mensagem = document.getElementById('mensagem').value; // Adicionado .value para obter o valor do campo
